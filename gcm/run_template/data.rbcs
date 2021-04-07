@@ -1,0 +1,20 @@
+# RBCS package parameters:
+ &RBCS_PARM01
+ useRBCptracers =.TRUE.,
+ relaxMaskFile(3)='tracer_mask.bin',
+ relaxMaskFile(4)='tracer_mask.bin',
+
+ &
+
+# RBCS for pTracers (read this namelist only when ptracers pkg is compiled)
+ &RBCS_PARM02
+  useRBCptrnum(1)    = .TRUE.,
+  useRBCptrnum(2)    = .TRUE.,
+
+  tauRelaxPTR(1)     = 21600.,
+  tauRelaxPTR(2)     = 21600.,
+
+  relaxPtracerFile(1)='tracer1.bin',
+  relaxPtracerFile(2)='tracer2.bin',
+
+ &

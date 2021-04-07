@@ -1,0 +1,14 @@
+ &PTRACERS_PARM01
+ PTRACERS_numInUse=2,
+ PTRACERS_Iter0=1728000.,
+ 
+ PTRACERS_advScheme(1)=7,
+ PTRACERS_advScheme(2)=7,
+ 
+ PTRACERS_useKPP(1)=.TRUE.,
+ PTRACERS_useKPP(2)=.TRUE.,
+
+ PTRACERS_initialFile(1)='',
+ PTRACERS_initialFile(2)='',
+
+ &
